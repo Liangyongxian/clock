@@ -13,6 +13,7 @@ function drawBackground() {
     ctx.arc(0, 0, r - ctx.lineWidth / 2, 0, 2 * Math.PI);
     ctx.stroke();
 
+    
     var hourNumbers = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2];
 
     hourNumbers.forEach(function (num, i) {
